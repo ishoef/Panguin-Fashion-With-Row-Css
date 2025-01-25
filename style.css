@@ -139,7 +139,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .imag{
@@ -188,6 +188,62 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* ___________section-4__________ */
+
+.sec-4-shop{
+    margin: 120px 0 200px 0;
+}
+
+
+.sec-4-content{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.sec-4-left{
+    flex-basis: 40%;
+}
+
+.long-card-content{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0 0 10px #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.logn-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.long-card-content img{
+    width: 14%;
+}
+
+.left-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sec-4-right{
+    flex-basis: 50%;
+}
+
+.sec-4-right img{
+    width: 90%;
+}
+
 
 @media screen and (max-width: 576px) {
     
