@@ -192,7 +192,7 @@
 /* ___________section-4__________ */
 
 .sec-4-shop{
-    margin: 120px 0 200px 0;
+    margin: 120px 0 0px 0;
 }
 
 
@@ -244,7 +244,21 @@
     width: 90%;
 }
 
+/* ___________footer__________ */
 
+.foot{
+    width: 100%;
+    height: 80px;
+    background: #363958;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-right{
+    color: #aeaeae;
+    font-weight: 400;
+}
 @media screen and (max-width: 576px) {
     
     /* ____________header-responsive___________ */
@@ -328,5 +342,35 @@
 
     .sec-3-product-card{
         margin-top: 90px;
+    }
+
+    /* ______________Sec-4-responsive____________ */
+
+    .sec-4-shop{
+        margin: 80px 0 200px 0;
+    }
+
+    .sec-4-content{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+
+    .long-card-content{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        background: #FFF;
+        box-shadow: 0 0 10px #f2f2f2;
+        padding: 30px;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .long-card-content img{
+        width: 24%;
+    }
+
+    .left-right{
+        text-align: center;
     }
 }
