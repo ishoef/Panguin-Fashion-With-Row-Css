@@ -249,4 +249,28 @@
     .banner-para{
         text-align: justify;
     }
+
+    /* ___________section-2-3_resposive__________ 
+    */
+
+    .sec-2-content{
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .sec-2-title{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 0;
+    }
+
+    .sec-3-product-card{
+        margin-top: 90px;
+    }
 }
