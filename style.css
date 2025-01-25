@@ -54,9 +54,6 @@
     font-size: 30px;
 }
 
-
-
-
 /* ________________section-1-bannar_______________ */
 
 .bannar{
@@ -122,6 +119,75 @@
     padding-left: 100px;
 }
 
+/* _______________section-2-women-jacket______________ */
+
+.sec-2-content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.sec-2-title{
+    font-size: 38px;
+    margin-bottom: 40px;
+    font-family: "Bebas Neue", serif;
+    color: #363958;
+    font-weight: 600;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+
+.imag{
+    border-radius: 15px;
+    padding: 40px;
+    background: #f1f1f1;
+}
+
+.card-container img{
+    width: 100%;
+}
+
+.pdct-card{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0 0 24px #f2f2f2;
+}
+
+.card-content{
+    margin: 20px;
+}
+
+.card-text{
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card-para{
+    font-size: 15px;
+    color: #3E3E3E;
+}
+
+.card-title{
+    color: #363958;
+}
+
+.price{
+    font-size: 36px;
+    color: #FABE4C;
+}
+
+.prc-and-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 @media screen and (max-width: 576px) {
     
@@ -138,11 +204,6 @@
     .nav-items{
         display: none;
     }
-
-    /* .list-icon{
-        width: 100%;
-        display: block;
-    } */
 
     #list{
         width: 8%;
