@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+/* ________________header_____________ */
+
+.header{
+    width: 100%;
+    height: fit-content;
+    background-color: #FFFBF0;
+}
+
+.head-content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-content img{
+    width: 40%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-items .item{
+    list-style: none;
+}
+
+.nav-items .item a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: 0.5s ease;
+}
+
+.list-icon{
+    display: none;
+    font-size: 30px;
+}
+
+
+
+
+/* ________________section-1-bannar_______________ */
+
+.bannar{
+    width: 100%;
+    height: fit-content;
+    background: #FFFBF0;
+}
+
+.bannar-content{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannar-left-content{
+    flex-basis: 50%;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.bannar-title{
+    font-family: "Bebas Neue", serif;
+    font-size: 70px;
+    font-weight: 500;
+    color: #363958;
+    line-height: 1;
+}
+
+.banner-para{
+    color: #3E3E3E;
+}
+
+.spn-1{
+    font-family: "Bebas Neue", serif;
+    color: #FABE4C;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(133, 160, 25, 1), rgba(164, 188, 70, 1));
+    color: #FFF;
+}
+
+.btn .shop-cart{
+    width: 20%;
+}
+
+.bannar-pic{
+    flex-basis: 50%;
+    padding-left: 100px;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    /* ____________header-responsive___________ */
+    
+    .header{
+        border-bottom: 1px solid #3E3E3E;
+    }
+
+    .head-content{
+        width: 90%;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    /* .list-icon{
+        width: 100%;
+        display: block;
+    } */
+
+    #list{
+        width: 8%;
+        display: block;
+    }
+    .head-content img{
+        width: 50%;
+    }
+
+    /* _____________bannaer-responsive____________ */
+
+    .bannar-content{
+        width: 90%;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .bannar-pic{
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannar-pic .model-pic{
+        width: 70%;
+    }
+
+    .bannar-left-content{
+        width: 100%;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannar-title{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .banner-para{
+        text-align: justify;
+    }
+}
